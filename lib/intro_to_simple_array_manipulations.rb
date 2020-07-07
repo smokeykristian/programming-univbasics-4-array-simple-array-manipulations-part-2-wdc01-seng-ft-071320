@@ -3,7 +3,7 @@ def using_concat(my_favorite_things,more_favs)
 end
 
 def using_insert(list_of_programming_languages,another_language)
-  list_of_programming_languages.to_i.insert(another_language)
+  list_of_programming_languages.insert(another_language)
 end
 
 def using_uniq(haircuts)
@@ -12,4 +12,10 @@ end
 
 def using_flatten(instruments)
   instruments.flatten
+end
+
+def using_delete()
+end
+
+def using_delete_at()
 end
