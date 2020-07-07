@@ -5,3 +5,5 @@ end
 def using_insert(list_of_programming_languages,other_language)
   list_of_programming_languages.insert(other_language)
 end
+
+def using_uniq()
